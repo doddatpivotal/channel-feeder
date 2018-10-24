@@ -20,8 +20,8 @@ module.exports = config => {
         body: message,
         headers: {'Content-Type': 'application/json'}
     })
-    .then(res = > console.log('posted %s to %s %s', message, channelUrl, res.status))
-    .catch(err = > console.log(err));
+    .then(res => console.log('posted %s to %s %s', message, channelUrl, res.status))
+    .catch(err => console.log(err));
 
     var out = `posting ${message} to ${channelUrl}/s`;
     console.log(out);
