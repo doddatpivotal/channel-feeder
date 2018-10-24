@@ -15,15 +15,17 @@ module.exports = config => {
         }
     }
 
+    var jsonString = JSON.stringify(message)
+
     fetch(channelUrl, {
         method: 'POST',
-        body: message,
+        body: jsonString,
         headers: {'Content-Type': 'application/json'}
     })
-    .then(res => console.log('posted %s to %s %s', message, channelUrl, res.status))
+    .then(res => console.log('posted %s to %s %s', jsonString, channelUrl, res.status))
     .catch(err => console.log(err));
 
-    var out = `posting ${message} to ${channelUrl}/s`;
+    var out = `posting ${jsonString} to ${channelUrl}/s`;
     console.log(out);
     return out;
 
