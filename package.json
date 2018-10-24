@@ -1,7 +1,7 @@
 {
-  "name": "channel-fedder",
+  "name": "channel-feeder",
   "version": "0.0.1",
-  "main": "channel-fedder.js",
+  "main": "channel-feeder.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

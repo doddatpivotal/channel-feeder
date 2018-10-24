@@ -7,7 +7,7 @@ This sample requires riff v0.1.3 or later.
 ```sh
 riff function create node channel-feeder \
     --git-repo https://github.com/doddatpivotal/channel-feeder.git \
-    --artifact channel-feeder.js \    
+    --artifact channel-feeder.js \
     --image $DOCKER_ID/channel-feeder \
     --verbose \
     --wait
