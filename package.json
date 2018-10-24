@@ -1,0 +1,11 @@
+{
+  "name": "channel-fedder",
+  "version": "0.0.1",
+  "main": "channel-fedder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
