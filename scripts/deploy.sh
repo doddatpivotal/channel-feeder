@@ -1,4 +1,4 @@
-riff service delete notifier
+riff service delete channel-feeder
 
 riff function create node channel-feeder \
     --git-repo https://github.com/doddatpivotal/channel-feeder.git \
